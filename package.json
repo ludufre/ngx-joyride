@@ -1,17 +1,10 @@
 {
-  "name": "@ludufre/ngx-joyride",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ludufre/ngx-joyride"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "name": "workspace",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4500",
-    "build": "ng build demo --configuration production",
+    "build": "ng build ngx-joyride --configuration production",
     "test": "ng test",
     "test:unit": "ng test ngx-joyride --browsers=ChromeHeadless --watch=false",
     "test:unit:ci": "CHROME_BIN=/usr/bin/google-chrome ng test ngx-joyride --browsers=ChromeHeadless --watch=false --code-coverage=true",
